@@ -8,7 +8,7 @@
  * The pipeline stages you still own even with a library: vertex winding,
  * canvas SIZE and pixelRatio, and the colour space of the clear colour.
  */
-import * as THREE from "three";
+import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
 
 const W = 800,
     H = 600;
