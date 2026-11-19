@@ -1,0 +1,80 @@
+{
+    "name": "Brandenburger Tor - Centered Perfectly",
+    "scale_px_per_m": 12.0,
+    "origin_m": [10.0, 10.0],
+    "silhouette": {
+        "points": [
+            [5.0, 5.0],
+            [45.0, 5.0],
+            [45.0, 35.0],
+            [5.0, 35.0]
+        ]
+    },
+    "polylines": [{
+            "category": "wall",
+            "closed": true,
+            "points": [
+                [15.0, 10.0],
+                [25.0, 10.0],
+                [25.0, 30.0],
+                [15.0, 30.0]
+            ]
+        },
+        {
+            "category": "cella",
+            "closed": true,
+            "points": [
+                [30.0, 10.0],
+                [40.0, 10.0],
+                [40.0, 30.0],
+                [30.0, 30.0]
+            ]
+        },
+        {
+            "category": "stair",
+            "closed": false,
+            "points": [
+                [10.0, 18.0],
+                [15.0, 18.0],
+                [15.0, 22.0],
+                [10.0, 22.0]
+            ]
+        },
+        {
+            "category": "shrine",
+            "closed": true,
+            "points": [
+                [32.0, 4.0],
+                [38.0, 4.0],
+                [38.0, 9.0],
+                [32.0, 9.0]
+            ]
+        },
+        {
+            "category": "shrine",
+            "closed": true,
+            "points": [
+                [32.0, 31.0],
+                [38.0, 31.0],
+                [38.0, 36.0],
+                [32.0, 36.0]
+            ]
+        },
+        {
+            "category": "axis",
+            "closed": false,
+            "points": [
+                [20.0, 0.0],
+                [20.0, 40.0]
+            ]
+        },
+        {
+            "category": "axis",
+            "closed": false,
+            "points": [
+                [0.0, 20.0],
+                [50.0, 20.0]
+            ]
+        }
+    ]
+}
